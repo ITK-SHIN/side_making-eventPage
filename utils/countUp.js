@@ -15,7 +15,6 @@ export const countUp = (dom, target, second, term = 15) => {
     return;
 
   const countTerm = Math.floor((target / second) * (term / 1000));
-  console.log(countTerm);
   let nowNumber = 0;
 
   const timerID = setInterval(() => {
